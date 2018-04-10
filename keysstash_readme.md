@@ -15,10 +15,10 @@
 * * [Laravel](https://github.com/laravel/laravel)
 * * [Laravel Passport](https://github.com/laravel/passport) (auth)
 
-All the screenshots and animations stored on [imgur](https://imgur.com/a/Hjhcm)
+All the screenshots and animations stored on [imgur](https://imgur.com/a/nnaZG)
 ## Main Features:
 
-* ### Cases and Collections Opening
+* ### Keys Stash
 ![Keys filtering](https://i.imgur.com/oV6X7Qj.gif)
 
 > There are almost 50 cases and collections available for opening. Each case contains specific rare item (knife or gloves).
@@ -28,12 +28,11 @@ All the items (more than 7000) were parsed from [OPSkins](https://opskins.com/) 
 
 ---
 
-* ### Roulette
+* ### Adding new game
 ![Adding new game](https://i.imgur.com/VL2RNj0.gif)
 > Website allows to bet on all three colors per roll. Coefficients for black and red are 2, for green 14.
 
 
-
 ---
 
-More screenshots are stored on [imgur album](https://imgur.com/a/Hjhcm).
+More screenshots are stored on [imgur album](https://imgur.com/a/nnaZG).
