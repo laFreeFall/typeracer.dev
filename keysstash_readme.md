@@ -23,7 +23,7 @@ All the screenshots and animations stored on [imgur](https://imgur.com/a/nnaZG)
 ## Main Features:
 
 * ### Keys Stash Filtering
-![Keys filtering](https://i.imgur.com/M1s5kFj.gif)
+![Keys filtering](https://i.imgur.com/lqbav4X.gif)
 
 * * Initially [Vuex-loading](https://github.com/f/vuex-loading) detects that keys are loading and display [Vue-content-loading](https://github.com/LucasLeandro1204/vue-content-loading) cards. After receiving nested keys and games from server [normalizr](https://github.com/paularmstrong/normalizr) normalizing them for comfortable future managing. Vue.js displays each Game with its keys in a single Card (masonry-like [Bootstrap-4 Card-Column component](https://getbootstrap.com/docs/4.0/components/card/#card-columns)). If a game doesn't have keys, its image became gray and card-header background changes from blue 'info' to gray 'light' to show that it's inactive.
 * * You can filter keys by their status (are they used or not). It's very helpfull not to get confused with both used and non-used keys.
@@ -34,7 +34,7 @@ All the screenshots and animations stored on [imgur](https://imgur.com/a/nnaZG)
 ---
 
 * ### Adding new keys and toggling existing ones
-![Keys storing and toggling](https://i.imgur.com/lqbav4X.gif)
+![Keys storing and toggling](https://i.imgur.com/M6jlu3d.gif)
 
 * * If you want to add a key, just start typing it in the input below needed game card. Website will show you if you're doing right or not via displaying little tip below the input. Different games distributing platforms have different key templates. For example, Steam keys always looks like 123AB-324SC-SCJ82, so they should contain three pairs of capital letters and digits concatenated by hyphen. So, when you are adding a key to a Steam game, we validate it via regexp following to exactly this pattern. If you add Non-Steam game, validation rules changes.
 * * If you want to activate a key - click on a copy button on the right side, the key will be copied to your clipboard. After redeeming check it as used via clicking on a circle icon on the left side. Key will be immediately removed from the 'new' tab and will be placed to 'used' one.
